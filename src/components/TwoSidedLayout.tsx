@@ -28,7 +28,7 @@ export default function TwoSidedLayout({
         },
       })}
     >
-            <AspectRatio
+      <AspectRatio
         ratio={16 / 9}
         variant="outlined"
         maxHeight={300}
@@ -48,7 +48,7 @@ export default function TwoSidedLayout({
       >
         <img
           src={image}
-          style={{objectFit: "contain", backgroundColor: "black"}}
+          style={{ objectFit: "contain", backgroundColor: "black" }}
         />
       </AspectRatio>
       <Box
